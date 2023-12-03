@@ -38,6 +38,11 @@ $serializer = new CompactSerializer();
 
 $token = $serializer->serialize($jws, 0);
 
+$res = ["token" => $token];
+echo json_encode($res);
+
+exit;
+
 $client = new Client();
 
 $response = $client->request('POST', $serviceAccount->token_endpoint, [
