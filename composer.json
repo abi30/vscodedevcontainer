@@ -1,0 +1,11 @@
+{
+    "name": "pw/service-account",
+    "type": "project",
+    "require": {
+        "web-token/jwt-core": "^3.0",
+        "web-token/jwt-signature": "^3.0",
+        "web-token/jwt-signature-algorithm-ecdsa": "^3.0",
+        "guzzlehttp/guzzle": "^7.4",
+        "ramsey/uuid": "^4.3"
+    }
+}
